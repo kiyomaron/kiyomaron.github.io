@@ -4,31 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kiyo Japan</title>
+  <title>Kiyona's portfolio site</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <header>
     <div class="logo">
-        <h3>logo</h3>
+        <h3>KIYONA TRACY</h3>
     </div>
-
     <nav>
       <ul>
         <li>
           <a href="../index.html">Home</a>
+          <span class="nav-clicked"></span>
         </li>
         <li>
           <a href="../profile/index.html">Profile</a>
         </li>
         <li>
-          <a href="../blog/index.html">Blog</a>
+          <a href="../works/index.html">Works</a>
         </li>
         <li>
-          <a href="#">Works</a>
-        </li>
-        <li>
-          <a href="../skills/index.html">Skills</a>
+           <a href="#">Skills</a>
         </li>
         <li>
           <a href="../contact/index.html">Contact</a>
@@ -37,108 +35,307 @@
     </nav>
   </header>
   <div class="header-space"></div>
-  <section class="pt-100 pb-100">
-    <h2 class="text-center section-title">Skills</h2>
+  <section class="pb-100">
+    <div class="top-image page-top">
+      <div class="top-container page-title-container">
+        <h1 class="page-title">Skills</h1>
+      </div>
+    </div>
+    <div class="skill-level-container pb-100">
+      <div class="section-title-container">
+        <h2 class="section-title">Skill Levels</h2>
+      </div>
+      <dl class="skill-levels">
+        <div>
+          <dt>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </dt>
+          <dd>
+            勉強中です
+          </dd>
+        </div>
+        <div>
+          <dt>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </dt>
+          <dd>
+            調べながら使うことができます
+          </dd>
+        </div>
+        <div>
+          <dt>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </dt>
+          <dd>
+            自分で考えてできます
+          </dd>
+        </div>
+        <div>
+          <dt>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </dt>
+          <dd>
+            最適な方法を選んで使ったり提案したりすることができます
+          </dd>
+        </div>
+        
+
+      </dl>
+    </div>
     <dl class="skills">
       <div class="skill">
         <h3>コーディング</h3>
-        <FaLaptopCode  class="icon" />
-        <div class="skill-detail">
-          <dt>HTML</dt>
-          <dd>3年6ヶ月</dd>
-          <p>ホームページを作成できます</p>
-          <dt>CSS</dt>
-          <dd>3年6ヶ月</dd>
-          <p>ホームページを作成できます</p>
+        <div class="skill-container">
+          <i class="fa-solid fa-code icon"></i>
+          <div class="skill-detail">
+            <dt class="en">HTML</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">CSS</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <p>ホームページを作成できます</p>
+          </div>
         </div>
       </div>
       
       <div class="skill">
         <h3>フロントエンド</h3>
-        <FaLaptopCode  class="icon" />
-        <div class="skill-detail">
-          <dt>React</dt>
-          <dd>6ヶ月</dd>
-          <p>SPAを作成できます</p>
+        <div class="skill-container">
+          <i class="fa-solid fa-laptop-code icon"></i>
+          <div class="skill-detail">
+            <dt class="en">JavaScript</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">React</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <p>DOMの操作、SPAを作成できます</p>
+          </div>
         </div>
       </div>
       
       <div class="skill">
         <h3>バックエンド</h3>
-        <FaLaptopCode  class="icon" />
-        <div class="skill-detail">
-          <dt>Node.js</dt>
-          <dd>6ヶ月</dd>
-          <dt>PHP(Laravel)</dt>
-          <dd>6ヶ月</dd>
+        <div class="skill-container">
+          <i class="fa-solid fa-laptop-code icon"></i>
+          <div class="skill-detail">
+            <dt class="en">Node.js</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">PHP(Laravel)</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+          </div>
         </div>
       </div>
 
       <div class="skill">
         <h3>データベース</h3>
-        <FaDatabase class="icon" />
-        <div class="skill-detail">
-          <dt>MSSQL</dt>
-          <dd>1年</dd>
-          <dt>MongoDB</dt>
-          <dd>3ヶ月</dd>
+        <div class="skill-container">
+          <i class="fa-solid fa-database icon"></i>
+          <div class="skill-detail">
+            <dt class="en">MSSQL</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">AWS DynamoDB</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">MongoDB</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+          </div>
         </div>
       </div>
       
       <div class="skill">
         <h3>インフラ・サーバー</h3>
-        <FaServer class="icon" />
-        <div class="skill-detail">
-          <dt>Docker</dt>
-          <dd>6ヶ月</dd>
-          <dt>Tomcat</dt>
-          <dd>1年</dd>
+        <div class="skill-container">
+          <i class="fa-solid fa-server icon"></i>
+          <div class="skill-detail">
+            <dt class="en">Docker</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">Tomcat</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+          </div>
         </div>
       </div>
       
       <div class="skill">
         <h3>デザイン・動画編集</h3>
-        <FaPalette class="icon" />
-        <div class="skill-detail">
-          <dt>Illustrator</dt>
-          <dd>1年6ヶ月</dd>
-          <dt>Photoshop</dt>
-          <dd>1年6ヶ月</dd>
-          <dt>PremirePro</dt>
-          <dd>1年6ヶ月</dd>
-          <dt>AfterEffects</dt>
-          <dd>1年6ヶ月</dd>
-          <dt>Blender</dt>
-          <dd>1年6ヶ月</dd>
+        <div class="skill-container">
+          <i class="fa-solid fa-pen-nib icon"></i>
+          <div class="skill-detail">
+            <dt class="en">PremirePro</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">AfterEffects</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">Blender</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">Illustrator</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">Photoshop</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+          </div>
         </div>
       </div>
       <div class="skill">
         <h3>その他</h3>
-        <FaLaptop class="icon" />
-        <div class="skill-detail">
-          <dt>GitHub</dt>
-          <dd>1年</dd>
-          <dt>Slack</dt>
-          <dd>6ヶ月</dd>
-          <dt>Chatwork</dt>
-          <dd>1年2ヶ月</dd>
-          <dt>ThingWorx</dt>
-          <dd>1年3ヶ月</dd>
+        <div class="skill-container">
+          <i class="fa-solid fa-laptop-code icon"></i>
+          <div class="skill-detail">
+            <dt class="en">GitHub</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">Slack</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">Chatwork</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">ThingWorx</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+          </div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>AWS</h3>
+        <div class="skill-container">
+          <i class="fa-solid fa-laptop-code icon"></i>
+          <div class="skill-detail">
+            <dt class="en">DynamoDB</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+            <dt class="en">StepFunctions</dt>
+            <dd>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </dd>
+          </div>
         </div>
       </div>
       <div class="skill">
           <h3>資格</h3>
-          <div class="skill-detail">
-            <dt>2018年6月</dt>
-            <dd>TOEIC 850点</dd>
-            <dt>2019年6月</dt>
-            <dd>基本情報技術者合格</dd>
+          <div class="skill-container">
+            <i class="fa-regular fa-file-lines icon"></i>
+            <div class="skill-detail">
+              <dt>2018年6月</dt>
+              <dd>TOEIC 850点</dd>
+              <dt>2019年6月</dt>
+              <dd>基本情報技術者合格</dd>
+            </div>
           </div>
-          
       </div>
-
     </dl>
-   
   </section>
+  <footer>
+    <p>&copy; 2023 KIYONA TRACY</p>
+  </footer>
 </body>
 </html>

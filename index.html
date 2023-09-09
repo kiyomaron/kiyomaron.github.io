@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kiyo's portfolio</title>
+  <title>KIYONA's portfolio site</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -27,9 +28,6 @@
            <a href="./skills/index.html">Skills</a>
         </li>
         <li>
-          <a href="#">Gallery</a>
-        </li>
-        <li>
           <a href="./contact/index.html">Contact</a>
         </li>
       </ul>
@@ -44,25 +42,33 @@
             <div class="content-inner">
               <div class="name-info">
                 <h1>Frontend Engineer</h1>
-                <h2>トレイシー 紀代菜</h2>
-                <span>Kiyona Tracy</span>
+                <h2 style="margin-left: -10px;">トレイシー 紀代菜</h2>
+                <span style="display: block;">Kiyona Tracy</span>
               </div>
               <div class="image-box">
-                <img src="../images/myPicture.png" alt="プロフィール写真" class="profile-image" />
-              </div>  
+                <img src="../images/myPicture.png" alt="プロフィール写真" id="profile_img" class="profile-image" />
+                <div id="message_box" class="display-none">
+                  <div class="message-box-inner">
+                    <p>Welcome to my site!!</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="contact-info">
-              <div class="sns-icon"><FaEnvelope /></div>
+              <i class="fa-regular fa-envelope sns-icon"></i>
               <p>kyn.maron947@gmail.com</p>
             </div>
             <div class="contact-info with-link">
-              <a href="https://github.com/kiyomaron" class="sns-icon" target="_blank"><FaGithub /></a>
-              <p>https://github.com/kiyomaron</p>
+              <a href="https://github.com/kiyomaron" target="_blank">
+                <i class="fa-brands fa-github sns-icon"></i>
+                <p>https://github.com/kiyomaron</p>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <script src="./js/script.js"></script>
 </body>
 </html>
