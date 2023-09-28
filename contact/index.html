@@ -22,7 +22,7 @@
           <a href="../profile/index.html">Profile</a>
         </li>
         <li>
-          <a href="../works/index.html">Works</a>
+          <a href="../works/index.html">Portfolio</a>
         </li>
         <li>
            <a href="../skills/index.html">Skills</a>
@@ -41,13 +41,28 @@
         </div>
       </div>
       <div>
-        <form action="submit">
-          <label for="contact_content">お問合せ内容
-            <input type="textarea" id="contact_content">
-          </label>
-
-
-        </form>
+        <div class="form-container">
+          <form action="submit">
+            <div class="section-title-container" style="padding-bottom: 30px;">
+              <h3 class="section-title">お問い合わせフォーム</h3>
+            </div>
+            <div class="form-inner">
+              <div>
+                <label for="contact_name">お名前</label>
+                <input type="text" id="contact_name">
+              </div>
+              <div>
+                <label for="contact_email">メールアドレス</label>
+                <input type="email" id="contact_email">
+              </div>
+              <div>
+                <label for="contact_content">お問合せ内容</label>
+                <textarea id="contact_content" rows="8" cols="40" class="tarea"></textarea>
+              </div>
+            </div>
+          </form>
+          <button type="submit" class="submit-btn">送信する</button>
+        </div>
       </div>
     </section>
     <footer>

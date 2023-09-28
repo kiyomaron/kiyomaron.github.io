@@ -24,6 +24,21 @@ dd {
   margin: 1rem;
 }
 
+input {
+  border-radius: 0;
+  border: none;
+  background-color: #ece6e7;
+  height: 24px;
+  width: 100%;
+}
+input.tarea {
+  line-height: 1.5;
+  height: 6em;
+}
+input:focus {
+  outline: none;
+}
+
 
 
 /* Common */
@@ -58,6 +73,29 @@ h2.section-title {
 }
 .pb-100 {
   padding-bottom: 100px;
+}
+
+input {
+  border-radius: 0;
+  border: none;
+  background-color: #ece6e7;
+  height: 24px;
+  width: 100%;
+}
+input:focus {
+  background-color: #e7d4d7;
+}
+textarea {
+  border-radius: 0;
+  border: none;
+  background-color: #ece6e7;
+  width: 100%;
+  line-height: 1.5;
+  height: 6em;
+}
+textarea:focus {
+  background-color: #e7d4d7;
+  outline: none;
 }
 
 /* header */
@@ -650,6 +688,27 @@ ul.timeline-list li:before {
   padding-top: 1rem;
 }
 
+/* contact */
+.form-container {
+  background-color: #fff;
+  width: 70%;
+  padding: 2rem;
+  margin: auto;
+}
+.form-inner div {
+  padding-bottom: 20px;
+}
+
+.submit-btn {
+  display: block;
+  margin: auto;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: #c099a0;
+  color: #fff;
+}
 
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
   
