@@ -1,45 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;600;700&display=swap');
 
-/* reset css*/
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 1rem;
-}
-p, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-dd {
-  margin: 1rem;
-}
-
-input {
-  border-radius: 0;
-  border: none;
-  background-color: #ece6e7;
-  height: 24px;
-  width: 100%;
-}
-input.tarea {
-  line-height: 1.5;
-  height: 6em;
-}
-input:focus {
-  outline: none;
-} */
-
-
 
 /* Common */
 body {
